@@ -1,0 +1,15 @@
+{
+  "name": "tech-blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && next dev",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && next build",
+    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && next start"
+  },
+  "dependencies": {
+    "next": "13.4.16",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
